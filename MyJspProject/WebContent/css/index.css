@@ -1,0 +1,12 @@
+.slide .image {
+  margin-top: 20em;
+  text-align: center;
+  z-index: -100;
+}
+.slide .idom {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  color: #042504;
+  font-size: 20px;
+}

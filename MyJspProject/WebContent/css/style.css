@@ -1,0 +1,75 @@
+body {
+  background-color: #d6f8c4;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 1050px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+a:active {
+  color: red;
+}
+.top .logo h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 400;
+  float: left;
+}
+.top .logo h1 a {
+  color: #999;
+}
+.top .logo h1 a span {
+  color: #1abc9c;
+}
+.top .right {
+  float: right;
+  margin: 0 50px 0 25px;
+}
+.topnav {
+  clear: both;
+  background-color: #21b121;
+  overflow: auto;
+  font-weight: bolder;
+}
+.topnav a {
+  float: left;
+  color: #000;
+  font-size: 1.25em;
+}
+.topnav > nav > ul {
+  list-style: none;
+  margin: 0;
+}
+.topnav > nav > ul > li {
+  float: left;
+  margin: 0 50px;
+  text-align: center;
+}
+
+table{
+  border:1px;
+}
+table tr th{
+  width: 200px;
+  margin-left: 20px;
+  text-align: center;
+}
+table tr td{
+  width: 200px;
+  margin-left: 20px;
+  text-align: center;
+}
+table tfoot td{
+	 colspan: 6;
+	 text-align:right;
+}
